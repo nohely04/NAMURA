@@ -1,6 +1,6 @@
 /*acerca*/
-.acerca{
-    padding: 60px;
+.acerca {
+    padding: 2%;
     background-color: beige;
     /*margin: auto;*/
     width: 350px;
@@ -8,11 +8,78 @@
     flex-direction: column;
     /* Alinear elementos verticalmente */
     align-items: center;
-    /* Centrar elementos horizontalmente */ 
-    margin: 170px;
+    /* Centrar elementos horizontalmente */
+    
     /* Reducir el margen derecho para menos espacio entre cajas */
     float: left;
     font-size: 18px;
     box-sizing: border-box;
-    padding: 2%;
-}   
+    margin-top: 2%;
+}
+
+.detalle p {
+    padding-top: 10px;
+    text-align: justify;
+}
+.detalle img {
+    width: 70%;
+    height: 200px;
+    margin-left: 15%;
+    margin-top: 6%;
+    box-sizing: border-box;
+}
+
+
+.conteiner {
+    display: grid;
+    gap: 220px;
+    padding: 30px;
+    margin: 70px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+}
+
+/* Escritorio grande */
+@media (min-width: 1200px) {
+    .conteiner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .acerca {
+        width: auto;
+        margin: 0;
+    }
+}
+
+/* Tablet y Escritorio pequeño */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .conteiner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .acerca {
+        width: auto;
+        margin: 0;
+    }
+}
+
+/* Móvil */
+@media (max-width: 767.98px) {
+    .conteiner {
+        grid-template-columns: 1fr;
+    }
+
+    .acerca {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .acerca img {
+        height: 200px;
+    }
+
+    .detalle {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
