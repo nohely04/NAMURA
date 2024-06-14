@@ -1,0 +1,18 @@
+/*acerca*/
+.acerca{
+    padding: 60px;
+    background-color: beige;
+    /*margin: auto;*/
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    /* Alinear elementos verticalmente */
+    align-items: center;
+    /* Centrar elementos horizontalmente */ 
+    margin: 170px;
+    /* Reducir el margen derecho para menos espacio entre cajas */
+    float: left;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 2%;
+}   
