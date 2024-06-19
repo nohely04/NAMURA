@@ -119,6 +119,11 @@ footer {
 h3, h4, h5, h6,p, ul, li{
     font-family: 'Montserrat Light';
 }
+#Blog {
+    text-align: center;
+    font-family: 'Eyesome Scrip';
+    font-size: 65px;
+}
 
 #Titulo{
     text-align: center;
