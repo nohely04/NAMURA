@@ -107,3 +107,20 @@ p {
 .contenido article {
     margin-bottom: 40px;
 }
+.video-container {
+    width: 80%;
+    max-width: 600px; /* Ancho máximo para el video */
+    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 para el video */
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 20px; /* Centrar el video y agregar margen inferior */
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
