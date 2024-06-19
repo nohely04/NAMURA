@@ -92,6 +92,7 @@ a {
     flex: 1;
     padding: 30px;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 .widget {
