@@ -96,8 +96,8 @@ h3{
 }
 .video-container {
     width: 100%;
-    max-width: 800px; /* Ancho máximo para el video */
-    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 para el video */
+    max-width: 400px; /* Ancho máximo reducido para el video */
+    padding-bottom: 42%; /* Proporción de aspecto 16:9 para el video */
     position: relative;
     overflow: hidden;
     margin: 0 auto 20px; /* Centrar el video y agregar margen inferior */
@@ -113,5 +113,6 @@ h3{
 }
 p, h4{
     text-align: center;
+    margin: 15px;;
 }
 
