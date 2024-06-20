@@ -19,6 +19,7 @@
     height: 250px;
     margin: 1%;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .titulo-detalle {
@@ -30,6 +31,7 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Montserrat Light';
+    border-radius: 5px;
 }
 
 
@@ -93,6 +95,15 @@ a {
     padding: 30px;
     box-sizing: border-box;
     text-align: justify;
+}
+
+.contenido ul {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 200px;
+    gap: 10px;
+
 }
 
 .widget {

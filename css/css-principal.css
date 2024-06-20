@@ -1,28 +1,30 @@
-*{
-margin: 0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
     font-family: 'League';
     src: url('../fonts/LeagueGothic-Regular.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
-  }
-  @font-face {
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Eyesome Scrip';
     src: url('../fonts/Eyesome\ Script.otf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
-  }
-  @font-face {
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Montserrat Light';
     src: url('../fonts/Montserrat-Light.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
-  }
-  
-header{
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
     background-color: #FCBFC9;
     text-align: center;
     padding: 10px;
@@ -32,56 +34,67 @@ header{
     color: #dd7888;
     position: relative;
 }
-header figure{
+
+header figure {
     position: absolute;
     left: 10px;
     top: 5px;
 }
-header h1{
+
+header h1 {
     text-align: center;
     align-items: center;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color:#FCBFC9;
+    background-color: #FCBFC9;
     overflow: hidden;
     color: white;
-   
+
 }
-nav ul li{
+
+nav ul li {
     float: right;
 }
+
 nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px; 
+    padding: 14px 20px;
     font-size: 'Montserrat Light';
-    text-decoration: none;/*quita la raya abajo de los nombres*/
+    text-decoration: none;
+    /*quita la raya abajo de los nombres*/
 }
+
 nav ul li a:hover {
     background-color: #f4c9c9;
 }
-main{
+
+main {
     margin: 0 auto;
     padding: 1%;
 }
+
 footer {
     background-color: #FCBFC9;
     text-align: center;
     padding: 0px;
     margin: 0px;
-    clear: both; /* Asegura que el footer no se solape con elementos flotantes */
-    position: relative; /* Posiciona el footer en el flujo del documento */
-    z-index: 1; /* Asegura que el footer esté por encima del contenido */
+    clear: both;
+    /* Asegura que el footer no se solape con elementos flotantes */
+    position: relative;
+    /* Posiciona el footer en el flujo del documento */
+    z-index: 1;
+    /* Asegura que el footer esté por encima del contenido */
     font-family: 'Montserrat Ligth';
     color: white;
     font-size: 20px;
 
-    
+
     /*Nuevo para los iconos*/
     width: 100%;
     min-height: 100px;
@@ -90,21 +103,22 @@ footer {
     align-items: center;
     flex-direction: column;
 }
-.Redes-icon{
+
+.Redes-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     margin: 10px 5px;
     flex-wrap: wrap;
-    
+
 }
 
-.elemento{
+.elemento {
     list-style: none;
 }
 
-.icono{
+.icono {
     color: white;
     display: inline-block;
     margin: 0 10px;
@@ -112,31 +126,43 @@ footer {
     width: 30PX;
     height: 20px;
 }
-.icono :hover{
+
+.icono :hover {
     transform: translateY(-10PX);
 }
 
 
 
-h3, h4, h5, h6,p, ul, li{
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
     font-family: 'Montserrat Light';
 }
+
 #Blog {
     text-align: center;
     font-family: 'Eyesome Scrip';
     font-size: 65px;
 }
 
-#Titulo{
+#Titulo {
     text-align: center;
     font-family: Eyesome Scrip;
     font-size: 65px;
-    }
-   
-    @media screen and (max-width: 768px) {
-        nav ul {
-            grid-template-columns: 1fr; 
-        }
-    }
+}
 
+#subtitulo {
+    font-size: 25px;
+    margin: 70px;
+    justify-content: center;
+}
 
+@media screen and (max-width: 768px) {
+    nav ul {
+        grid-template-columns: 1fr;
+    }
+}
