@@ -12,17 +12,17 @@
     display: block;
     padding: 20px;
     cursor: pointer;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     background: #dd7888;
     border-radius: 20px;
     color: white;
     font-family: 'Montserrat Light';
     text-align: center;
-
+    
 }
 
 .acordeon .Contenido-acordeon {
-    padding: 0px;
+    padding: 10px;
     margin: 0px 20px;
     max-height: 0px;
     overflow: hidden;
@@ -47,4 +47,10 @@
     .contenedor-acordeon {
         width: 90%;
     }
+}
+
+p{
+    margin: 20px 0; /* Margen superior e inferior de 20px */
+    text-align: center;
+    justify-content: left;
 }
