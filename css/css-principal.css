@@ -49,6 +49,7 @@ nav ul{
     background-color:#FCBFC9;
     overflow: hidden;
     color: white;
+   
 }
 nav ul li{
     float: right;
@@ -59,6 +60,7 @@ nav ul li a {
     text-align: center;
     padding: 14px 20px; 
     font-size: 'Montserrat Light';
+    text-decoration: none;/*quita la raya abajo de los nombres*/
 }
 nav ul li a:hover {
     background-color: #f4c9c9;
@@ -131,5 +133,10 @@ h3, h4, h5, h6,p, ul, li{
     font-size: 65px;
     }
    
+    @media screen and (max-width: 768px) {
+        nav ul {
+            grid-template-columns: 1fr; /* Single column layout on smaller screens */
+        }
+    }
 
 
