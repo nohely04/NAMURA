@@ -1,0 +1,50 @@
+.contenedor-acordeon {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.acordeon {
+    background-color: white;
+}
+
+.acordeon label {
+    display: block;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    background: #dd7888;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat Light';
+    text-align: center;
+
+}
+
+.acordeon .Contenido-acordeon {
+    padding: 0px;
+    margin: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    /*oculta el contenido*/
+    transition: all 300ms ease;
+}
+
+.btn-acordeon:checked~.Contenido-acordeon {
+    max-height: 600px;
+    padding: 15px 0px;
+}
+
+.btn-acordeon {
+    display: none;
+}
+
+.Contenido-acordeon {
+    border-radius: 15px;
+}
+
+@media screen and (max-width:900px) {
+    .contenedor-acordeon {
+        width: 90%;
+    }
+}

@@ -1,58 +1,100 @@
-/*Formulario*/
-.formulario{
-    width: 350px;
-    background: #FCBFC9;
-    padding: 30px;
-    margin-left: 70px;
-    margin-top: 30px;
-    border-radius: 4px;
-    color: white;
-    border: solid 1px lightgray;
-    box-shadow: 2px 2px 5px lightgray;
-    font-family: 'Montserrat Light';
-    font-size: 15px;
-   
+.cont {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 50px;
+    margin: 0px 300px;
+    gap: 120px;
+    width: 1000px;
 }
-.formulario h3{
+
+/*Formulario*/
+.formulario {
+    width: 350px;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 5px 7px 20px #dd7888;
+    font-family: 'Montserrat Light';
+}
+
+.formulario h4 {
     font-size: 22px;
     margin-bottom: 20px;
-    text-align: center;
-
 }
-.Control{
+
+.Control {
     width: 90%;
-    /*background:#FCBFC9;*/
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 10px;
     border: 1px solid #dd7888;
 }
-.formulario .boton{
+
+.formulario .boton {
     width: 100%;
-    background: #f4c9c9;
+    background: #dd7888;
     border: none;
-    padding: 12px ;
+    padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
     box-sizing: border-box;
-    box-shadow: 0px 0px 5px #000;
-    
+    box-shadow: 0px 0px 5px #f4c9c9;
 }
-fieldset{
+
+fieldset {
     margin: 20px;
-    border: 2px solid #000;
+    border: 2px solid #dd7888;
     padding: 10px 20px 20px 20px;
 }
 
-textarea{
-   resize: none;
-   min-width: 90px;
-   min-height: 100px;
-
-
-
+textarea {
+    resize: none;
+    min-width: 90px;
+    min-height: 100px;
 }
-.radiobu{
+
+.combo{
+    padding: 10px 0px;
+}
+
+/* Información de contacto */
+.info-cont {
+    width: 350px;
+    padding: 150px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Montserrat Light';
+    
+    
+}
+
+.info-cont h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.info-cont .data {
+    margin-top: 10px;
+    
+}
+
+.info-cont .data p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
     padding: 5px;
+}
+.info-cont .horario p {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.info-cont .data i {
+    margin-right: 10px;
+    margin: auto;
+    
 }

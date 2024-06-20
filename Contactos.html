@@ -35,72 +35,68 @@
     </nav>
     <main>
       <h2 id="Titulo">Contactos</h2>
-      <section class="formulario">
-        <form>
-          <h3>Formulario</h3>
-          <fieldset>
-            <legend>Infomación</legend>
-            <p></p>
-            <label for="Nombre">Nombre Completo</label>
-            <input
-              class="Control"
-              type="text"
-              name="nombres"
-              id="nombres"
-              placeholder="Ingrese su nombre completo"
-            />
-            <label for="Nombre"> Número de Teléfono</label>
-            <input
-              class="Control"
-              type="text"
-              name="apellido"
-              id="apellido"
-              placeholder="Ingrese su número de teléfono"
-            />
-            <label for="Nombre">Correo Electronico</label>
-            <input
-              class="Control"
-              type="email"
-              name="correo"
-              id="correo"
-              placeholder="Ingrese su Correo"
-            />
-            <hr />
-            <p></p>
-            <div class="conteiner">
-              <div class="radiobu">
-                <input type="radio" name="size" id="cot" />
-                <label for="cot">Cotización</label>
-              </div>
+      <div class="cont">
+        <form class="formulario">
+            <h4>Formulario</h4>
+            <fieldset>
+                <legend>Infomación</legend>
+                <label for="nombres">Nombre Completo</label>
+                <input class="Control" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre completo">
 
-              <div class="radiobu">
-                <input type="radio" name="size" id="ped" />
-                <label for="ped">Pedido</label>
-              </div>
-            </div>
-            <p></p>
-            <div class="combo">
-              <label for="Categorías">Categorías</label>
-              <select class="Control" name="opciones" id="opciones">
-                <option value="Tres leches">Tres Leches</option>
-                <option value="Infantiles">Infantil</option>
-                <option value="Juveniles">Juvenil</option>
-                <option value="Bento Cake">Bento Cake</option>
-                <option value="Cupcakes">Cupcakes</option>
-                <option value="Tortas frias">Tortas Frias</option>
-              </select>
-            </div>
-            <p></p>
-            <label for="Comentario">Comentario</label>
-            <textarea
-              class="Control"
-              placeholder="Escribe tu comentario"
-              id="Comentario"
-            ></textarea>
-            <button class="boton" type="reset">Enviar</button>
-          </fieldset>
+                <label for="telefono">Número de Teléfono</label>
+                <input class="Control" type="text" name="telefono" id="telefono" placeholder="+506 00000000">
+
+                <label for="correo">Correo Electronico</label>
+                <input class="Control" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+              
+                <div class="container">
+                    <div class="radiobu">
+                        <input type="radio" name="size" id="cot">
+                        <label for="cot">Cotización</label>
+                    </div>
+                    <div class="radiobu">
+                        <input type="radio" name="size" id="ped">
+                        <label for="ped">Pedido</label>
+                    </div>
+                </div>
+                
+                <div class="combo">
+                    <label for="opciones">Categorías</label>
+                    <select class="Control" name="opciones" id="opciones">
+                        <option value="tres leches">Tres Leches</option>
+                        <option value="infantiles">Infantil</option>
+                        <option value="juvenil">Juvenil</option>
+                        <option value="Bonto Cake">Bonto Cake</option>
+                        <option value="Copcakes">Copcakes</option>
+                        <option value="Tortas frias">Tortas Frias</option>
+                    </select>
+                </div>
+                <label for="Comentario">Comentario</label>
+                <textarea class="Control" placeholder="Escribe tú comentario" id="Comentario"></textarea>
+                <button class="boton" type="reset">Enviar</button>
+            </fieldset>
         </form>
-      </section>
+        <div class="info-cont">
+            <h1>Contactos</h1>
+            
+            <div class="data">
+                <p><i><ion-icon name="call-outline"></ion-icon>6348-8677</p>
+                <p><i><ion-icon name="mail-outline"></ion-icon>namuracakes.cr@gmail.com</p>
+                <p><i><ion-icon name="location-outline"></ion-icon>Coyolar, Orotina</p>                          
+                </div>
+            <div class="horario">
+            <h1>Horario</h1>
+            <p>Lun 9:00am - 5:00pm</p>
+            <p>Mar 9:00am - 5:00pm</p>
+            <p>Mié 9:00am - 5:00pm</p>
+            <p>Jue 9:00am - 5:00pm</p>
+            <p>Vie 9:00am - 5:00pm</p>
+            <p>Sab 9:00am - 5:00pm</p>
+            <p>Dom cerrado</p>
+          </div>
+        </div>
+    </div>
+    
     </main>
     <footer>
       <ul class="Redes-icon">
