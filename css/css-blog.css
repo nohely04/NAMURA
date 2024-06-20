@@ -99,10 +99,6 @@ a {
     margin-bottom: 20px;
 }
 
-.contenido h2,
-p {
-    margin: 20px 0;
-}
 
 .contenido article {
     margin-bottom: 40px;
@@ -114,7 +110,7 @@ p {
     padding-bottom: 42%; /* Proporción de aspecto 16:9 para el video */
     position: relative;
     overflow: hidden;
-    margin: 0 auto 20px; /* Centrar el video y agregar margen inferior */
+    margin: 0 auto 50px; /* Centrar el video y agregar margen inferior */
 }
 
 .video-container video {
@@ -125,3 +121,28 @@ p {
     height: 100%;
     object-fit: cover;
 }
+
+
+.contenido {
+    margin: 30px; /* Margen alrededor de todo el contenido */
+    padding: 20px; /* Opcional: Añadir padding para un espacio adicional interno */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total del contenido */
+}
+
+.contenido img {
+    display: block;
+    margin: 20px auto; /* Centra las imágenes y añade un margen superior e inferior */
+}
+
+.contenido h2,
+.contenido p,
+.contenido h3 {
+    margin: 20px 0; /* Margen superior e inferior de 20px */
+    text-align: center;
+    justify-content: left;
+}
+
+.contenido section {
+    margin-bottom: 20px; /* Añadir margen inferior a cada sección */
+}
+

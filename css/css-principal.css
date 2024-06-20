@@ -135,7 +135,7 @@ h3, h4, h5, h6,p, ul, li{
    
     @media screen and (max-width: 768px) {
         nav ul {
-            grid-template-columns: 1fr; /* Single column layout on smaller screens */
+            grid-template-columns: 1fr; 
         }
     }
 
