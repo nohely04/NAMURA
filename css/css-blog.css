@@ -97,11 +97,12 @@ a {
     text-align: justify;
 }
 
+
 .contenido ul {
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 200px;
+    /*margin-left: 200px;*/
     gap: 10px;
 
 }
@@ -135,9 +136,10 @@ a {
 
 
 .contenido {
-    margin: 30px; /* Margen alrededor de todo el contenido */
+    margin: 100px; /* Margen alrededor de todo el contenido */
     padding: 20px; /* Opcional: Añadir padding para un espacio adicional interno */
     box-sizing: border-box; /* Asegura que el padding no afecte el ancho total del contenido */
+    text-align: justify;
 }
 
 .contenido img {
@@ -145,15 +147,22 @@ a {
     margin: 20px auto; /* Centra las imágenes y añade un margen superior e inferior */
 }
 
-.contenido h2,
+
 .contenido p,
-.contenido h3 {
+.contenido h2,
+.contenido h4 {
     margin: 20px 0; /* Margen superior e inferior de 20px */
-    text-align: center;
+   /* text-align: center;*/
     justify-content: left;
+}
+.contenido h3{
+    text-align: center;
 }
 
 .contenido section {
     margin-bottom: 20px; /* Añadir margen inferior a cada sección */
 }
 
+section{
+    padding: 10px;
+}
