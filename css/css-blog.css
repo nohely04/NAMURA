@@ -31,7 +31,7 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Montserrat Light';
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 a {
@@ -131,13 +131,25 @@ section{
     padding: 10px;
 }
 
-
-/* Tablet y Escritorio pequeño */
-@media (min-width: 768px) and (max-width: 1199.98px) {
+/* Escritorio grande */
+@media (min-width: 1200px) {
     .conteiner {
         grid-template-columns: repeat(3, 1fr);
     }
     
+    .paginas-blog {
+        width: auto;
+        margin: 0;
+    }
+}
+
+/* Tablet y Escritorio pequeño */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .conteiner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+
     .paginas-blog {
         width: auto;
         margin: 0;
