@@ -58,7 +58,7 @@
 /* Tablet y Escritorio pequeño */
 @media (min-width: 768px) and (max-width: 1199.98px) {
     .conteiner {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
