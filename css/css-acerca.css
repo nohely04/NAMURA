@@ -41,6 +41,17 @@
     grid-template-columns: 1fr;
 }
 
+/* Escritorio grande */
+@media (min-width: 1200px) {
+    .conteiner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .acerca {
+        width: auto;
+        margin: 0;
+    }
+}
 
 /* Tablet y Escritorio pequeño */
 @media (min-width: 768px) and (max-width: 1199.98px) {
