@@ -1,7 +1,6 @@
 /*acerca*/
 .acerca {
     padding: 2%;
-    background-color: beige;
     /*margin: auto;*/
     width: 350px;
     display: flex;
@@ -9,13 +8,16 @@
     /* Alinear elementos verticalmente */
     align-items: center;
     /* Centrar elementos horizontalmente */
-    
+    border: 2px solid #ffa3b2;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ffa3b2;
     /* Reducir el margen derecho para menos espacio entre cajas */
     float: left;
     font-size: 18px;
     box-sizing: border-box;
     margin-top: 2%;
 }
+
 
 .detalle p {
     padding-top: 10px;

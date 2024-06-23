@@ -40,7 +40,7 @@
     .conteiner {
         grid-template-columns: repeat(3, 1fr);
     }
-
+    
     .paginas-blog {
         width: auto;
         margin: 0;
@@ -52,6 +52,7 @@
     .conteiner {
         grid-template-columns: repeat(2, 1fr);
     }
+    
 
     .paginas-blog {
         width: auto;
@@ -98,12 +99,20 @@ a {
 }
 
 
-.contenido ul {
+.contenido .lista ul {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*margin-left: 200px;*/
+    gap: 10px;
+
+}
+.contenido  ul {
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /*margin-left: 200px;*/
-    gap: 10px;
+    margin-left: 30px;
+    gap: 25px;
 
 }
 
