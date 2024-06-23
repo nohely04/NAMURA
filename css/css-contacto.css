@@ -91,10 +91,9 @@ textarea {
 
 /* Media Queries */
 
-/* Tablet y Escritorio pequeño */
 @media (min-width: 768px) {
     .cont {
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas en tabletas y dispositivos más grandes */
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .formulario {
@@ -106,10 +105,3 @@ textarea {
     }
 }
 
-/* Escritorio grande y superior */
-@media (min-width: 1200px) {
-    .cont {
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas en escritorios grandes */
-        gap: 40px; /* Aumenta el espacio entre las columnas */
-    }
-}

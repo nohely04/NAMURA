@@ -23,6 +23,11 @@
     height: auto; 
 }
 
+p, h3{
+    text-align: center;
+    margin: 10px;;
+}
+
 /*Medias Querys*/
 @media (min-width: 768px) and (max-width: 1199.98px) {
     .nosotros-container {
