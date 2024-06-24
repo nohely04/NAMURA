@@ -56,7 +56,6 @@ a {
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /*margin-left: 200px;*/
     gap: 10px;
 
 }
@@ -116,7 +115,6 @@ a {
 .contenido h2,
 .contenido h4 {
     margin: 20px 0; /* Margen superior e inferior de 20px */
-   /* text-align: center;*/
     justify-content: left;
 }
 .contenido h3{
@@ -131,6 +129,7 @@ section{
     padding: 10px;
 }
 
+
 /* Escritorio grande */
 @media (min-width: 1200px) {
     .conteiner {
@@ -144,9 +143,9 @@ section{
 }
 
 /* Tablet y Escritorio pequeño */
-@media (min-width: 768px) and (max-width: 1199.98px) {
+@media (min-width: 768px) and (min-width: 1200px) {
     .conteiner {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
     
 

@@ -51,6 +51,12 @@
         width: auto;
         margin: 0;
     }
+    .acerca img{
+        width: 250px;
+        height: 250px;
+        margin-right: 150px;
+      
+    }
 }
 
 /* Tablet y Escritorio pequeño */
@@ -62,6 +68,11 @@
     .acerca {
         width: auto;
         margin: 0;
+    }
+    .acerca img{
+        width: 250px;
+        height: 250px;
+        margin-right: 150px;
     }
 }
 

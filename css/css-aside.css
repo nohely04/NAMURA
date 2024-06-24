@@ -2,22 +2,19 @@
     display: grid;
     grid-template-columns: 250px 1fr; /* Define dos columnas, una fija para el aside y otra flexible para el main */
     gap: 20px; /* Espacio entre las columnas */
-     
 }
 
 aside {
-    
-    margin-top: 40px;
+    margin-top: 80px;
     padding: 30px;
     box-sizing: border-box;
     background-color: #fff;
     border: solid 1px lightgray;
     box-shadow: 2px 2px 5px lightgray;
-    
 }
-.fijo{
+
+.fijo {
     position: fixed;
-    
 }
 
 aside h3 {
@@ -31,30 +28,19 @@ aside a {
     color: black;  
 }
 
-/* Media Queries para diseño responsivo */
-
-/* Escritorio grande */
-@media (min-width: 1200px) {
-    .container {
-        grid-template-columns: 250px 1fr; /* Mantiene dos columnas */
-    }
+.aside-container .widget h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'League';
 }
 
-/* Tablet y Escritorio pequeño */
-@media (min-width: 768px) and (max-width: 1199.98px) {
-    .container {
-        grid-template-columns: 200px 1fr; /* Ajusta el ancho de la columna del aside */
-        gap: 20px; /* Mantiene el espacio entre las columnas */
-    }
-
-    aside {
-        padding: 20px;
-    }
-    .fijo{
-        position: relative;
-    }
-   
+.aside-container .widget img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    padding-top: 50px;
 }
+
+/* Media Queries */
 
 /* Móvil */
 @media (max-width: 767.98px) {
@@ -68,10 +54,8 @@ aside a {
         margin-top: 20px;
         padding: 20px;
     }
-    aside  {
-        padding: 20px;
-    }
-    aside  h3 {
+
+    aside h3 {
         font-size: 14px; /* Ajusta el tamaño de fuente */
         padding: 5px;
     }
@@ -79,7 +63,21 @@ aside a {
     aside a {
         font-size: 14px; /* Ajusta el tamaño de fuente */
     }
-    .fijo{
+
+    aside img {
+        width: 100%; /* Asegura que la imagen ocupe el ancho completo */
+        height: auto; /* Mantiene la proporción de la imagen */
+        display: block;
+        margin: 0 auto; /* Centra la imagen */
+    }
+
+    .fijo {
         position: relative;
     }
+
+    .aside-container {
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px;
+    }  
 }
