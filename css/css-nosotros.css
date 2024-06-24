@@ -2,12 +2,12 @@
     padding: 1rem;
     justify-content: center;
     text-align: justify;
-    margin: 50px;
+    margin: 150px;
 }
 
 .nosotros-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr); /* Por defecto una columna */
     gap: 1rem;
     justify-content: center;
 }
@@ -21,9 +21,9 @@
 }
 
 .comentario img {
-    max-width: 100%; 
-    width: 150px; 
-    height: auto; 
+    max-width: 100%;
+    width: 150px;
+    height: auto;
 }
 
 p, h3 {
@@ -32,5 +32,23 @@ p, h3 {
     font-size: 20px;
     justify-content: left;
 }
+
+
+@media (min-width: 768px) {
+    .main-content {
+        margin: 50px; /* Centrar el contenido con margen cero */
+        padding: 2rem; /* Aumentar el padding */
+    }
+
+    .nosotros-container {
+        grid-template-columns: repeat(3, 1fr); /* Cambio a tres columnas en pantallas más grandes */
+    }
+
+    p, h3 {
+        text-align: justify; /* Ajustar el texto justificado en pantallas más grandes */
+        justify-content: center;
+    }
+}
+
 
 
