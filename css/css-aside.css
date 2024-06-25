@@ -65,7 +65,7 @@ aside a {
     }
 
     aside img {
-        width: 100%; /* Asegura que la imagen ocupe el ancho completo */
+        width: 50%; /* Asegura que la imagen ocupe el ancho completo */
         height: auto; /* Mantiene la proporción de la imagen */
         display: block;
         margin: 0 auto; /* Centra la imagen */

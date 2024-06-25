@@ -2,12 +2,21 @@
     padding: 1rem;
     justify-content: center;
     text-align: justify;
-    margin: 150px;
+    margin: 0 100px; /* Centrar el contenido */
+    max-width: 1200px; /* Ancho máximo para evitar que se extienda demasiado */
 }
 
+#subtitulo {
+    text-align: center;
+}
+
+.contenedor h3{
+    text-align: center;
+    padding: 20px;
+}
 .nosotros-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Por defecto una columna */
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     justify-content: center;
 }
@@ -18,6 +27,7 @@
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
+
 }
 
 .comentario img {
@@ -26,29 +36,21 @@
     height: auto;
 }
 
-p, h3 {
+.cont h3 {
     text-align: center;
     margin: 20px;
     font-size: 20px;
     justify-content: left;
 }
 
-
-@media (min-width: 768px) {
+/* celulares*/
+@media (max-width: 768px) {
     .main-content {
-        margin: 50px; /* Centrar el contenido con margen cero */
-        padding: 2rem; /* Aumentar el padding */
+        margin: 50px auto; 
+        padding: 2rem; 
     }
 
     .nosotros-container {
-        grid-template-columns: repeat(3, 1fr); /* Cambio a tres columnas en pantallas más grandes */
-    }
-
-    p, h3 {
-        text-align: justify; /* Ajustar el texto justificado en pantallas más grandes */
-        justify-content: center;
+        grid-template-columns: repeat(1, 1fr); 
     }
 }
-
-
-

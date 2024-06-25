@@ -1,4 +1,5 @@
 .conteiner{
+    grid-template-columns: repeat(3, 1fr);
     display: grid;
     gap: 20px;
     padding: 20px;
@@ -38,11 +39,6 @@ a {
     color: white;
 }
 
-#Blog {
-    text-align: center;
-    font-family: 'Eyesome Scrip';
-    font-size: 65px;
-}
 
 .contenido {
     flex: 1;
@@ -130,30 +126,8 @@ section{
 }
 
 
-/* Escritorio grande */
-@media (min-width: 1200px) {
-    .conteiner {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
-    .paginas-blog {
-        width: auto;
-        margin: 0;
-    }
-}
 
-/* Tablet y Escritorio pequeño */
-@media (min-width: 768px) and (min-width: 1200px) {
-    .conteiner {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
 
-    .paginas-blog {
-        width: auto;
-        margin: 0;
-    }
-}
 
 /* Móvil */
 @media (max-width: 767.98px) {
