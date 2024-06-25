@@ -66,8 +66,7 @@ nav ul li a {
     text-align: center;
     padding: 14px 20px;
     font-size: 'Montserrat Light';
-    text-decoration: none;
-    /*quita la raya abajo de los nombres*/
+    text-decoration: none; /*quita la raya abajo de los nombres*/
 }
 
 nav ul li a:hover {

@@ -4,30 +4,29 @@
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    margin: 30px;
 }
 
 .section {
     width: 100%;
-    
 }
 
 .productos-group {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    justify-content: space-around;
 }
 
 .productos {
-    flex: 1 1 30%; /* Ajustar el ancho de los productos */
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 18px;
     padding: 10px;
     text-align: center;
-    
-    
+    margin-bottom: 20px;
 }
 
 .productos img {
@@ -36,7 +35,6 @@
     margin: 1%;
     padding: 12px;
     border-radius: 20px;
-   
 }
 
 .titulo-detalle {
@@ -44,44 +42,27 @@
     width: 100%;
     line-height: 1em;
     background-color: #ffa3b2;
+    box-shadow: 0px 0px 5px #ffa3b2;
     padding: 12px;
     box-sizing: border-box;
     text-align: center;
     font-family: 'Montserrat Light';
     color: white;
-    border-radius: 5px; /*bordeado*/
+    border-radius: 5px;
 }
 
-
-/* Tablet y Escritorio pequeño */
-@media (min-width: 768px) and (max-width: 1199.98px) {
-    .conteiner {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-/* Móvil */
-@media (max-width: 767.98px) {
-    .conteiner {
-        grid-template-columns: 1fr;
-    }
-    .titulo-detalle {
-        font-size: 16px;
-        padding: 10px;
-    }
-}
-
-h3{
+h3 {
     text-align: center;
     font-family: 'Montserrat Light';
 }
+
 .video-container {
     width: 100%;
-    max-width: 400px; /* Ancho máximo reducido para el video */
-    padding-bottom: 42%; /* Proporción de aspecto 16:9 para el video */
+    max-width: 400px;
+    padding-bottom: 42%;
     position: relative;
     overflow: hidden;
-    margin: 0 auto 20px; /* Centrar el video y agregar margen inferior */
+    margin: 0 auto 20px;
     border-radius: 10px;
 }
 
@@ -93,10 +74,27 @@ h3{
     height: 100%;
     object-fit: cover;
 }
-p, h4{
+
+p, h4 {
     text-align: center;
-    margin: 15px;;
+    margin: 15px;
 }
 
+/* Media Queries */
+/* Celular */
+@media (max-width: 767.98px) {
+    .productos-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .productos {
+        width: 100%; 
+    }
 
+    .titulo-detalle {
+        font-size: 16px;
+        padding: 10px;
+    }
+}

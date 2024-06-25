@@ -6,11 +6,17 @@
 
 aside {
     margin-top: 80px;
-    padding: 30px;
+    padding: 40px;
     box-sizing: border-box;
     background-color: #fff;
     border: solid 1px lightgray;
     box-shadow: 2px 2px 5px lightgray;
+}
+
+aside .widget h3 {
+    justify-content: left;
+    text-align: left;
+    font-size: 17px;
 }
 
 .fijo {
@@ -35,8 +41,8 @@ aside a {
 }
 
 .aside-container .widget img {
-    width: 100%; /* Ajusta la imagen al ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%; 
+    height: auto; 
     padding-top: 50px;
 }
 
