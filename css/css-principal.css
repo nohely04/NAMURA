@@ -160,6 +160,8 @@ li {
     justify-content: center;
 }
 
+/*Media Query*/
+/*Celular*/
 @media screen and (max-width: 768px) {
     nav ul {
         grid-template-columns: 1fr;

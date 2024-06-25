@@ -44,7 +44,8 @@
 }
 
 
-
+/*Media Query*/
+/*Celular*/
 @media  screen and (max-width:767.98px) {
     .contenedor-acordeon {
         width: 90%;

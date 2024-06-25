@@ -46,9 +46,9 @@ aside a {
     padding-top: 50px;
 }
 
-/* Media Queries */
+/* Media Query */
 
-/* Móvil */
+/* Celular */
 @media (max-width: 767.98px) {
     .container {
         grid-template-columns: 1fr; /* Cambia a una sola columna */

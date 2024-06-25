@@ -128,8 +128,8 @@ section{
 }
 
 
-
-/* Móvil */
+/*Media Query*/
+/* Celular */
 @media (max-width: 767.98px) {
     .conteiner {
         grid-template-columns: 1fr;

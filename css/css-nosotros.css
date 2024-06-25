@@ -56,8 +56,8 @@ article ul{
     font-size: 18px;
 }
 
-
-/* celulares*/
+/*Media Query*/
+/* Celular*/
 @media (max-width: 768px) {
     .main-content {
         margin: 50px auto; 

@@ -1,10 +1,13 @@
 .cont {
     display: grid;
-    grid-template-columns: 1fr; /* Por defecto una columna para dispositivos pequeños */
+    grid-template-columns: 1fr;
+    /* Por defecto una columna para dispositivos pequeños */
     padding: 20px;
     gap: 20px;
-    margin: 0 auto; /* Centrar el contenido */
-    max-width: 1000px; /* Ancho máximo para el contenedor */
+    margin: 0 auto;
+    /* Centrar el contenido */
+    max-width: 1000px;
+    /* Ancho máximo para el contenedor */
 }
 
 /* Estilos para el formulario */
@@ -52,11 +55,11 @@ textarea {
     resize: none;
     min-width: 90px;
     min-height: 100px;
-    }
-    
-    .combo{
+}
+
+.combo {
     padding: 10px 0px;
-    }
+}
 
 /* Estilos para la información de contacto */
 .info-cont {
@@ -89,7 +92,8 @@ textarea {
     justify-content: center;
 }
 
-/* Media Queries */
+/*Media Query*/
+/*Celular*/
 
 @media (min-width: 768px) {
     .cont {
@@ -97,11 +101,12 @@ textarea {
     }
 
     .formulario {
-        margin-top: 50px; /* Mayor margen superior para el formulario */
+        margin-top: 50px;
+        /* Mayor margen superior para el formulario */
     }
 
     .info-cont {
-        margin-top: 50px; /* Mayor margen superior para la información de contacto */
+        margin-top: 50px;
+        /* Mayor margen superior para la información de contacto */
     }
 }
-
