@@ -18,7 +18,7 @@ aside {
     position: fixed; 
     left: 30px;
     width: 250px; 
-    max-height: 50%;
+    max-height: 80%;
 }
 
 aside .widget h3 {
