@@ -1,26 +1,23 @@
 .container {
     display: grid;
-    grid-template-columns: 250px 1fr; /* Define dos columnas, una fija para el aside y otra flexible para el contenido */
-    gap: 20px; /* Espacio entre las columnas */
+    grid-template-columns: 250px 1fr; /* Columnas: 250px para aside, 1fr para contenido principal */
+    gap: 20px; /* Espacio entre columnas */
+    min-height: 110vh; /* Mínimo alto del viewport */
     margin-left: 20px;
-    min-height: 100vh;
+    margin-top: 10px;
 }
 
 aside {
-    margin-top: 8%;
-    padding: 40px;
+    position: sticky;
+    top: 20px; /* Distancia desde el borde superior */
+    width: 250px; 
+    padding: 20px;
     box-sizing: border-box;
     background-color: #fff;
-    border: solid 1px lightgray;
+    border: 1px solid lightgray;
     box-shadow: 2px 2px 5px lightgray;
     border-radius: 10px;
-    }
-
-.fijo {
-    position: sticky; /* Cambia a sticky en lugar de fixed */
-    top: 20px; /* Ajusta según necesites */
-    width: 250px;
-    height: calc(100vh - 20px); 
+    max-height: calc(110vh - 40px); /* Máximo alto ajustado para evitar que colapse con el footer */
 }
 
 aside .widget h3 {
@@ -28,6 +25,7 @@ aside .widget h3 {
     text-align: center;
     font-size: 17px;
     padding: 10px;
+    
 }
 
 aside .widget #Titulo-aside {
@@ -43,6 +41,20 @@ aside a {
 }
 
 /*Aside de nosotros*/
+.aside-container{
+    display: grid;
+    grid-template-columns: 250px 1fr; 
+    gap: 20px; /* Espacio entre columnas */
+}
+ .aside-nosotros{
+    margin-top: 8%;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: solid 1px lightgray;
+    box-shadow: 2px 2px 5px lightgray;
+    border-radius: 10px;
+}
 .aside-container .widget h3 {
     text-align: center;
     font-size: 40px;
