@@ -1,7 +1,6 @@
 .cont {
     display: grid;
     grid-template-columns: 1fr;
-    /* Por defecto una columna para dispositivos pequeños */
     padding: 20px;
     gap: 20px;
     margin: 0 auto;
@@ -23,6 +22,7 @@
 .formulario h4 {
     font-size: 22px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .Control {
@@ -55,17 +55,19 @@ textarea {
     resize: none;
     min-width: 90px;
     min-height: 100px;
+    font-family: 'Montserrat Light';
 }
 
 .combo {
     padding: 10px 0px;
+    font-family: 'Montserrat Light';
 }
 
 /* Estilos para la información de contacto */
 .info-cont {
     padding: 30px;
     text-align: center;
-    font-family: 'Montserrat Light', sans-serif;
+    font-family: 'Montserrat Light';
 }
 
 .info-cont h1 {

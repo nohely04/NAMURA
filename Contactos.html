@@ -1,123 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contactos</title>
-    <link href="./css/css-principal.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/css-contacto.css" />
-  </head>
 
-  <body>
-    <header>
-      <figure>
-        <img
-          src="./img/logo.jpg"
-          alt="Logo"
-          width="150"
-          height="115"
-          style="float: left"
-        />
-      </figure>
-      <h1>NAMURA</h1>
-      <h4>CAKE SHOP</h4>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="acerca-de.html">Acerca de</a></li>
-        <li><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
-        <li><a href="Contactos.html">Contactos</a></li>
-        <li><a href="blog-principal.html">Blog</a></li>
-        <li><a href="Productos.html">Productos</a></li>
-        <li><a href="Nosotros.html">Nosotros</a></li>
-        <li><a href="index.html">Inicio</a></li>
-      </ul>
-    </nav>
-    <main>
-      <h2 id="Titulo">Contactos</h2>
-      <div class="cont">
-        <form class="formulario">
-            <h4>Formulario</h4>
-            <fieldset>
-                <legend>Infomación</legend>
-                <label for="nombres">Nombre Completo</label>
-                <input class="Control" type="text" name="nombres" id="nombres" placeholder="NAMURA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contactos</title>
+  <link href="./css/css-principal.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/css-contacto.css" />
+</head>
 
-                <label for="telefono">Número de Teléfono</label>
-                <input class="Control" type="text" name="telefono" id="telefono" placeholder="+506 80000000">
-
-                <label for="correo">Correo Electrónico</label>
-                <input class="Control" type="email" name="correo" id="correo" placeholder="namuracakes.cr@gmail.com">
-              
-                <div class="container">
-                    <div class="radiobu">
-                        <input type="radio" name="size" id="cot">
-                        <label for="cot">Cotización</label>
-                    </div>
-                    <div class="radiobu">
-                        <input type="radio" name="size" id="ped">
-                        <label for="ped">Pedido</label>
-                    </div>
-                </div>
-                
-                <div class="combo">
-                    <label for="opciones">Categorías</label>
-                    <select class="Control" name="opciones" id="opciones">
-                        <option value="tres leches">Tres Leches</option>
-                        <option value="infantiles">Infantíl</option>
-                        <option value="juvenil">Juveníl</option>
-                        <option value="Bento Cake">Bento Cake</option>
-                        <option value="Cupcakes">Cupcakes</option>
-                        <option value="Tortas frias">Tortas Frías</option>
-                    </select>
-                </div>
-                <label for="Comentario">Comentario</label>
-                <textarea class="Control" placeholder="Escribe tu comentario" id="Comentario"></textarea>
-                <button class="boton" type="reset">Enviar</button>
-            </fieldset>
-        </form>
-        <div class="info-cont">
-            <h1>Contactos</h1>
-            
-            <div class="data">
-                <p><i><ion-icon name="call-outline"></ion-icon>6348-8677</p>
-                <p><i><ion-icon name="mail-outline"></ion-icon>namuracakes.cr@gmail.com</p>
-                <p><i><ion-icon name="location-outline"></ion-icon>Coyolar, Orotina</p>                          
-                </div>
-            <div class="horario">
-            <h1>Horario</h1>
-            <p>Lun 9:00am - 5:00pm</p>
-            <p>Mar 9:00am - 5:00pm</p>
-            <p>Mié 9:00am - 5:00pm</p>
-            <p>Jue 9:00am - 5:00pm</p>
-            <p>Vie 9:00am - 5:00pm</p>
-            <p>Sáb 9:00am - 5:00pm</p>
-            <p>Dom cerrado</p>
-          </div>
-        </div>
-    </div>
-    
-    </main>
-    <footer>
-      <ul class="Redes-icon">
-        <li class="elemento">
-            <a href="https://www.facebook.com/profile.php?id=100090639792215&sk=about_profile_transparency&locale=es_LA" class="icono"><ion-icon name="logo-facebook"></ion-icon></a>
-        </li>
-        <li class="elemento">
-            <a href="https://wa.me/63418677" class="icono"><ion-icon name="logo-whatsapp"></ion-icon></a>
-        </li>
-        <li class="elemento">
-            <a href="https://www.instagram.com/namura_cakes/" class="icono"><ion-icon name="logo-instagram"></ion-icon></a>
-        </li>
+<body>
+  <header>
+    <figure>
+      <img src="./img/logo.jpg" alt="Logo" width="150" height="115" style="float: left" />
+    </figure>
+    <h1>NAMURA</h1>
+    <h4>CAKE SHOP</h4>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="acerca-de.html">Acerca de</a></li>
+      <li><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+      <li><a href="Contactos.html">Contactos</a></li>
+      <li><a href="blog-principal.html">Blog</a></li>
+      <li><a href="Productos.html">Productos</a></li>
+      <li><a href="Nosotros.html">Nosotros</a></li>
+      <li><a href="index.html">Inicio</a></li>
     </ul>
-    </footer>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  </nav>
+  <main>
+    <h2 id="Titulo">Contactos</h2>
+    <div class="cont">
+      <form class="formulario">
+        <h4>Formulario</h4>
+        <fieldset>
+          <legend>Infomación</legend>
+          <label for="nombres">Nombre Completo</label>
+          <input class="Control" type="text" name="nombres" id="nombres" placeholder="NAMURA">
+
+          <label for="telefono">Número de Teléfono</label>
+          <input class="Control" type="text" name="telefono" id="telefono" placeholder="+506 80000000">
+
+          <label for="correo">Correo Electrónico</label>
+          <input class="Control" type="email" name="correo" id="correo" placeholder="namuracakes.cr@gmail.com">
+
+          <div class="container">
+            <div class="radiobu">
+              <input type="radio" name="size" id="cot">
+              <label for="cot">Cotización</label>
+            </div>
+            <div class="radiobu">
+              <input type="radio" name="size" id="ped">
+              <label for="ped">Pedido</label>
+            </div>
+          </div>
+
+          <div class="combo">
+            <label for="opciones">Categorías</label>
+            <select class="Control" name="opciones" id="opciones">
+              <option value="Tres leches">Tres Leches</option>
+              <option value="Infantiles">Infantil</option>
+              <option value="Juvenil">Juvenil</option>
+              <option value="Bento Cake">Bento Cake</option>
+              <option value="Cupcakes">Cupcakes</option>
+              <option value="Tortas frias">Tortas Frías</option>
+            </select>
+          </div>
+          <label for="Comentario">Comentario</label>
+          <textarea class="Control" placeholder="Escribe tu comentario" id="Comentario"></textarea>
+          <button class="boton" type="reset">Enviar</button>
+        </fieldset>
+      </form>
+      <div class="info-cont">
+        <h1>Contactos</h1>
+
+        <div class="data">
+          <p><i><ion-icon name="call-outline"></ion-icon>6348-8677</p>
+          <p><i><ion-icon name="mail-outline"></ion-icon>namuracakes.cr@gmail.com</p>
+          <p><i><ion-icon name="location-outline"></ion-icon>Coyolar, Orotina</p>
+        </div>
+        <div class="horario">
+          <h1>Horario</h1>
+          <p>Lun 9:00am - 5:00pm</p>
+          <p>Mar 9:00am - 5:00pm</p>
+          <p>Mié 9:00am - 5:00pm</p>
+          <p>Jue 9:00am - 5:00pm</p>
+          <p>Vie 9:00am - 5:00pm</p>
+          <p>Sáb 9:00am - 5:00pm</p>
+          <p>Dom cerrado</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <ul class="Redes-icon">
+      <li class="elemento">
+        <a href="https://www.facebook.com/profile.php?id=100090639792215&sk=about_profile_transparency&locale=es_LA"
+          class="icono"><ion-icon name="logo-facebook"></ion-icon></a>
+      </li>
+      <li class="elemento">
+        <a href="https://wa.me/63418677" class="icono"><ion-icon name="logo-whatsapp"></ion-icon></a>
+      </li>
+      <li class="elemento">
+        <a href="https://www.instagram.com/namura_cakes/" class="icono"><ion-icon name="logo-instagram"></ion-icon></a>
+      </li>
+    </ul>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>

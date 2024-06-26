@@ -3,17 +3,21 @@
     grid-template-columns: 250px 1fr; /* Define dos columnas, una fija para el aside y otra flexible para el contenido */
     gap: 20px; /* Espacio entre las columnas */
     margin-left: 20px;
+    min-height: 200vh;
 }
 
 aside {
+    position: sticky; /*es una mezcla entre el relative y el fixed. es este caso lleva a 20px y me mueve*/
+    top: 20px; /* Distancia desde el borde superior */
     margin-top: 8%;
     padding: 40px;
     box-sizing: border-box;
     background-color: #fff;
-    border: solid 1px lightgray;
-    box-shadow: 2px 2px 5px lightgray;
+    border: solid 1px #ffa3b2;
+    box-shadow: 2px 2px 5px #ffa3b2;
     border-radius: 10px;
-    height: 1200px;
+    height: 1100px;
+    max-height: calc(200vh - 40px);
     }
 
 .container .widget h3 {
@@ -26,7 +30,7 @@ aside {
 .container .widget img {
     width: 100%; 
     height: auto; 
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 /* Media Query */

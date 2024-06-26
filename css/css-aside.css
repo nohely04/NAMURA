@@ -14,8 +14,8 @@ aside {
     padding: 20px;
     box-sizing: border-box;
     background-color: #fff;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 5px lightgray;
+    border: 1px solid #ffa3b2;
+    box-shadow: 2px 2px 5px #ffa3b2;
     border-radius: 10px;
     max-height: calc(110vh - 40px); /* Máximo alto ajustado para evitar que colapse con el footer */
 }
@@ -38,34 +38,6 @@ aside .widget #Titulo-aside {
 
 aside a {
     color: black;  
-}
-
-/*Aside de nosotros*/
-.aside-container{
-    display: grid;
-    grid-template-columns: 250px 1fr; 
-    gap: 20px; /* Espacio entre columnas */
-}
- .aside-nosotros{
-    margin-top: 8%;
-    padding: 40px;
-    box-sizing: border-box;
-    background-color: #fff;
-    border: solid 1px lightgray;
-    box-shadow: 2px 2px 5px lightgray;
-    border-radius: 10px;
-}
-.aside-container .widget h3 {
-    text-align: center;
-    font-size: 40px;
-    font-family: 'League';
-    color: #dd7888;
-}
-
-.aside-container .widget img {
-    width: 100%; 
-    height: auto; 
-    padding-top: 60px;
 }
 
 /* Media Query */
@@ -98,14 +70,5 @@ aside a {
         display: block;
         margin: 0 auto; /* Centra la imagen */
     }
-
-    .fijo {
-        position: relative; 
-    }
-
-    .aside-container {
-        width: 100%;
-        margin-top: 20px;
-        padding: 20px;
-    }  
+  
 }
