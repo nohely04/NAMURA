@@ -16,8 +16,6 @@ aside {
 
 .fijo {
     position: fixed; 
-    left: 30px;
-    width: 250px; 
 }
 
 aside .widget h3 {
